@@ -1,0 +1,138 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 7, 70);
+}
+img {
+    max-width: 130px;
+    border-radius: 15px;
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+section{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+header{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+aside{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+nav {
+    background-color: #0a138f; /* Cor de fundo para o menu */
+    padding: 10px 0; /* Adiciona espaçamento vertical ao menu */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens do menu */
+    
+}nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens do menu */
+    
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 5, 59);
+    color: white;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 768px) { 
+    .body {
+     position: static;
+     width: 100%; 
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+    }
+    .section{
+        width: 100%;
+    }
+    div {
+        position: relative;
+        width: 100%;
+    }
+    p {
+        text-indent: 0;
+    }
+    nav{ 
+        width: 100%;
+    }
+    #titulo{
+        width: 100%;
+    }
+}
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    header {
+        background-color: #F2F2F2;
+        color:#262626;
+    }
+    .container {
+        width: 100%; 
+       }
+   
+       .body {
+           border-right: none;
+           width: 100%;
+       }
+       nav{ 
+        width: 100%;
+    }
+    div {
+        position: relative;
+        width: 100%;
+    }   
+
+}
